@@ -15,6 +15,7 @@
 		62849ED61CDCC7FB00DE71F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62849ED51CDCC7FB00DE71F0 /* Assets.xcassets */; };
 		62849ED91CDCC7FB00DE71F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62849ED71CDCC7FB00DE71F0 /* LaunchScreen.storyboard */; };
 		62849EE11CDCC90200DE71F0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62849EE01CDCC90200DE71F0 /* MediaPlayer.framework */; };
+		62849EE81CDCCAE900DE71F0 /* CDSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849EE71CDCCAE900DE71F0 /* CDSideBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		62849ED81CDCC7FB00DE71F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62849EDA1CDCC7FB00DE71F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62849EE01CDCC90200DE71F0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		62849EE61CDCCAE900DE71F0 /* CDSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSideBarController.h; sourceTree = "<group>"; };
+		62849EE71CDCCAE900DE71F0 /* CDSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSideBarController.m; sourceTree = "<group>"; };
 		682DBC7C84E314C7AF4A56F0 /* libPods-DBFM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DBFM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D3E62E1A2CAD706754FB1C5 /* Pods-DBFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DBFM/Pods-DBFM.debug.xcconfig"; sourceTree = "<group>"; };
 		FA7C1411AA00C768C4CA582D /* Pods-DBFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-DBFM/Pods-DBFM.release.xcconfig"; sourceTree = "<group>"; };
@@ -59,6 +62,7 @@
 		62849EBD1CDCC7FB00DE71F0 = {
 			isa = PBXGroup;
 			children = (
+				62849EE21CDCCA7D00DE71F0 /* CDSideBarController */,
 				62849EC81CDCC7FB00DE71F0 /* DBFM */,
 				62849EC71CDCC7FB00DE71F0 /* Products */,
 				2321014DF3DA2D97E25032B0 /* Pods */,
@@ -77,6 +81,9 @@
 		62849EC81CDCC7FB00DE71F0 /* DBFM */ = {
 			isa = PBXGroup;
 			children = (
+				62849EE31CDCCA9400DE71F0 /* Controller */,
+				62849EE41CDCCAA200DE71F0 /* Model */,
+				62849EE51CDCCAA900DE71F0 /* View */,
 				62849ECC1CDCC7FB00DE71F0 /* AppDelegate.h */,
 				62849ECD1CDCC7FB00DE71F0 /* AppDelegate.m */,
 				62849ECF1CDCC7FB00DE71F0 /* ViewController.h */,
@@ -96,6 +103,36 @@
 				62849ECA1CDCC7FB00DE71F0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62849EE21CDCCA7D00DE71F0 /* CDSideBarController */ = {
+			isa = PBXGroup;
+			children = (
+				62849EE61CDCCAE900DE71F0 /* CDSideBarController.h */,
+				62849EE71CDCCAE900DE71F0 /* CDSideBarController.m */,
+			);
+			name = CDSideBarController;
+			sourceTree = "<group>";
+		};
+		62849EE31CDCCA9400DE71F0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		62849EE41CDCCAA200DE71F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		62849EE51CDCCAA900DE71F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		F9191C8BD9CF377D7C78F584 /* Frameworks */ = {
@@ -229,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62849ED11CDCC7FB00DE71F0 /* ViewController.m in Sources */,
+				62849EE81CDCCAE900DE71F0 /* CDSideBarController.m in Sources */,
 				62849ECE1CDCC7FB00DE71F0 /* AppDelegate.m in Sources */,
 				62849ECB1CDCC7FB00DE71F0 /* main.m in Sources */,
 			);
