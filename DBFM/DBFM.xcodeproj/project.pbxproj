@@ -16,6 +16,16 @@
 		62849ED91CDCC7FB00DE71F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62849ED71CDCC7FB00DE71F0 /* LaunchScreen.storyboard */; };
 		62849EE11CDCC90200DE71F0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62849EE01CDCC90200DE71F0 /* MediaPlayer.framework */; };
 		62849EE81CDCCAE900DE71F0 /* CDSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849EE71CDCCAE900DE71F0 /* CDSideBarController.m */; };
+		62849EEB1CDCCCD100DE71F0 /* ChannelInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849EEA1CDCCCD100DE71F0 /* ChannelInfo.m */; };
+		62849EEE1CDCCCE600DE71F0 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849EED1CDCCCE600DE71F0 /* NetworkManager.m */; };
+		62849EF11CDCCD0400DE71F0 /* PlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849EF01CDCCD0400DE71F0 /* PlayerController.m */; };
+		62849EF41CDCCD1400DE71F0 /* ProtocolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849EF31CDCCD1400DE71F0 /* ProtocolClass.m */; };
+		62849EF71CDCCD2400DE71F0 /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849EF61CDCCD2400DE71F0 /* SongInfo.m */; };
+		62849EFA1CDCCD3400DE71F0 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849EF91CDCCD3400DE71F0 /* UserInfo.m */; };
+		62849EFD1CDCCD4200DE71F0 /* DFMPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849EFC1CDCCD4200DE71F0 /* DFMPlaylist.m */; };
+		62849F001CDCCD5400DE71F0 /* DFMUpChannelsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849EFF1CDCCD5400DE71F0 /* DFMUpChannelsEntity.m */; };
+		62849F031CDCCD6200DE71F0 /* DFMHotChannelsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849F021CDCCD6200DE71F0 /* DFMHotChannelsEntity.m */; };
+		62849F061CDCCD7900DE71F0 /* DFMRecChannelsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849F051CDCCD7900DE71F0 /* DFMRecChannelsEntity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +42,26 @@
 		62849EE01CDCC90200DE71F0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		62849EE61CDCCAE900DE71F0 /* CDSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSideBarController.h; sourceTree = "<group>"; };
 		62849EE71CDCCAE900DE71F0 /* CDSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSideBarController.m; sourceTree = "<group>"; };
+		62849EE91CDCCCD100DE71F0 /* ChannelInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelInfo.h; sourceTree = "<group>"; };
+		62849EEA1CDCCCD100DE71F0 /* ChannelInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelInfo.m; sourceTree = "<group>"; };
+		62849EEC1CDCCCE600DE71F0 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		62849EED1CDCCCE600DE71F0 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		62849EEF1CDCCD0300DE71F0 /* PlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerController.h; sourceTree = "<group>"; };
+		62849EF01CDCCD0400DE71F0 /* PlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerController.m; sourceTree = "<group>"; };
+		62849EF21CDCCD1400DE71F0 /* ProtocolClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolClass.h; sourceTree = "<group>"; };
+		62849EF31CDCCD1400DE71F0 /* ProtocolClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolClass.m; sourceTree = "<group>"; };
+		62849EF51CDCCD2400DE71F0 /* SongInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongInfo.h; sourceTree = "<group>"; };
+		62849EF61CDCCD2400DE71F0 /* SongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongInfo.m; sourceTree = "<group>"; };
+		62849EF81CDCCD3400DE71F0 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		62849EF91CDCCD3400DE71F0 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		62849EFB1CDCCD4200DE71F0 /* DFMPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFMPlaylist.h; sourceTree = "<group>"; };
+		62849EFC1CDCCD4200DE71F0 /* DFMPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFMPlaylist.m; sourceTree = "<group>"; };
+		62849EFE1CDCCD5400DE71F0 /* DFMUpChannelsEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFMUpChannelsEntity.h; sourceTree = "<group>"; };
+		62849EFF1CDCCD5400DE71F0 /* DFMUpChannelsEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFMUpChannelsEntity.m; sourceTree = "<group>"; };
+		62849F011CDCCD6200DE71F0 /* DFMHotChannelsEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFMHotChannelsEntity.h; sourceTree = "<group>"; };
+		62849F021CDCCD6200DE71F0 /* DFMHotChannelsEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFMHotChannelsEntity.m; sourceTree = "<group>"; };
+		62849F041CDCCD7900DE71F0 /* DFMRecChannelsEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFMRecChannelsEntity.h; sourceTree = "<group>"; };
+		62849F051CDCCD7900DE71F0 /* DFMRecChannelsEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFMRecChannelsEntity.m; sourceTree = "<group>"; };
 		682DBC7C84E314C7AF4A56F0 /* libPods-DBFM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DBFM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D3E62E1A2CAD706754FB1C5 /* Pods-DBFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DBFM/Pods-DBFM.debug.xcconfig"; sourceTree = "<group>"; };
 		FA7C1411AA00C768C4CA582D /* Pods-DBFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-DBFM/Pods-DBFM.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +154,26 @@
 		62849EE41CDCCAA200DE71F0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				62849EE91CDCCCD100DE71F0 /* ChannelInfo.h */,
+				62849EEA1CDCCCD100DE71F0 /* ChannelInfo.m */,
+				62849EEC1CDCCCE600DE71F0 /* NetworkManager.h */,
+				62849EED1CDCCCE600DE71F0 /* NetworkManager.m */,
+				62849EEF1CDCCD0300DE71F0 /* PlayerController.h */,
+				62849EF01CDCCD0400DE71F0 /* PlayerController.m */,
+				62849EF21CDCCD1400DE71F0 /* ProtocolClass.h */,
+				62849EF31CDCCD1400DE71F0 /* ProtocolClass.m */,
+				62849EF51CDCCD2400DE71F0 /* SongInfo.h */,
+				62849EF61CDCCD2400DE71F0 /* SongInfo.m */,
+				62849EF81CDCCD3400DE71F0 /* UserInfo.h */,
+				62849EF91CDCCD3400DE71F0 /* UserInfo.m */,
+				62849EFB1CDCCD4200DE71F0 /* DFMPlaylist.h */,
+				62849EFC1CDCCD4200DE71F0 /* DFMPlaylist.m */,
+				62849EFE1CDCCD5400DE71F0 /* DFMUpChannelsEntity.h */,
+				62849EFF1CDCCD5400DE71F0 /* DFMUpChannelsEntity.m */,
+				62849F011CDCCD6200DE71F0 /* DFMHotChannelsEntity.h */,
+				62849F021CDCCD6200DE71F0 /* DFMHotChannelsEntity.m */,
+				62849F041CDCCD7900DE71F0 /* DFMRecChannelsEntity.h */,
+				62849F051CDCCD7900DE71F0 /* DFMRecChannelsEntity.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -267,8 +317,18 @@
 			files = (
 				62849ED11CDCC7FB00DE71F0 /* ViewController.m in Sources */,
 				62849EE81CDCCAE900DE71F0 /* CDSideBarController.m in Sources */,
+				62849EF41CDCCD1400DE71F0 /* ProtocolClass.m in Sources */,
+				62849EFD1CDCCD4200DE71F0 /* DFMPlaylist.m in Sources */,
 				62849ECE1CDCC7FB00DE71F0 /* AppDelegate.m in Sources */,
+				62849F031CDCCD6200DE71F0 /* DFMHotChannelsEntity.m in Sources */,
+				62849EEB1CDCCCD100DE71F0 /* ChannelInfo.m in Sources */,
+				62849EF71CDCCD2400DE71F0 /* SongInfo.m in Sources */,
+				62849EF11CDCCD0400DE71F0 /* PlayerController.m in Sources */,
+				62849EEE1CDCCCE600DE71F0 /* NetworkManager.m in Sources */,
+				62849F001CDCCD5400DE71F0 /* DFMUpChannelsEntity.m in Sources */,
+				62849EFA1CDCCD3400DE71F0 /* UserInfo.m in Sources */,
 				62849ECB1CDCC7FB00DE71F0 /* main.m in Sources */,
+				62849F061CDCCD7900DE71F0 /* DFMRecChannelsEntity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
