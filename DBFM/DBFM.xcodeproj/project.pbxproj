@@ -12,6 +12,8 @@
 		598D49222B8181294CC0D510 /* libPods-DBFM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 682DBC7C84E314C7AF4A56F0 /* libPods-DBFM.a */; };
 		627B1C351CDDD4D100314CEB /* ChannelsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 627B1C331CDDD4D100314CEB /* ChannelsTableViewCell.m */; };
 		627B1C361CDDD4D100314CEB /* ChannelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 627B1C341CDDD4D100314CEB /* ChannelsTableViewCell.xib */; };
+		627B1C3A1CDDD69E00314CEB /* ChannelsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627B1C381CDDD69E00314CEB /* ChannelsTableViewController.m */; };
+		627B1C3B1CDDD69E00314CEB /* ChannelsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 627B1C391CDDD69E00314CEB /* ChannelsTableViewController.xib */; };
 		62849ECB1CDCC7FB00DE71F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849ECA1CDCC7FB00DE71F0 /* main.m */; };
 		62849ECE1CDCC7FB00DE71F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849ECD1CDCC7FB00DE71F0 /* AppDelegate.m */; };
 		62849ED11CDCC7FB00DE71F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849ED01CDCC7FB00DE71F0 /* ViewController.m */; };
@@ -40,6 +42,9 @@
 		627B1C321CDDD4D100314CEB /* ChannelsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewCell.h; sourceTree = "<group>"; };
 		627B1C331CDDD4D100314CEB /* ChannelsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewCell.m; sourceTree = "<group>"; };
 		627B1C341CDDD4D100314CEB /* ChannelsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChannelsTableViewCell.xib; sourceTree = "<group>"; };
+		627B1C371CDDD69E00314CEB /* ChannelsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewController.h; sourceTree = "<group>"; };
+		627B1C381CDDD69E00314CEB /* ChannelsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewController.m; sourceTree = "<group>"; };
+		627B1C391CDDD69E00314CEB /* ChannelsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChannelsTableViewController.xib; sourceTree = "<group>"; };
 		62849EC61CDCC7FB00DE71F0 /* DBFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62849ECA1CDCC7FB00DE71F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		62849ECC1CDCC7FB00DE71F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -164,6 +169,9 @@
 				6290893E1CDDC9D30042D851 /* PlayerViewController.m */,
 				0E71F4EE1CDDCF500088DD98 /* SidebarController.h */,
 				0E71F4EF1CDDCF500088DD98 /* SidebarController.m */,
+				627B1C371CDDD69E00314CEB /* ChannelsTableViewController.h */,
+				627B1C381CDDD69E00314CEB /* ChannelsTableViewController.m */,
+				627B1C391CDDD69E00314CEB /* ChannelsTableViewController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -277,6 +285,7 @@
 				62849ED91CDCC7FB00DE71F0 /* LaunchScreen.storyboard in Resources */,
 				627B1C361CDDD4D100314CEB /* ChannelsTableViewCell.xib in Resources */,
 				62849ED61CDCC7FB00DE71F0 /* Assets.xcassets in Resources */,
+				627B1C3B1CDDD69E00314CEB /* ChannelsTableViewController.xib in Resources */,
 				62849ED41CDCC7FB00DE71F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +363,7 @@
 				62849F061CDCCD7900DE71F0 /* DFMRecChannelsEntity.m in Sources */,
 				6290893F1CDDC9D30042D851 /* PlayerViewController.m in Sources */,
 				0E71F4F01CDDCF500088DD98 /* SidebarController.m in Sources */,
+				627B1C3A1CDDD69E00314CEB /* ChannelsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
