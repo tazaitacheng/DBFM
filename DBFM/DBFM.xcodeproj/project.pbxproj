@@ -10,6 +10,8 @@
 		0E71F4ED1CDDCA790088DD98 /* SidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E71F4EC1CDDCA790088DD98 /* SidebarController.m */; };
 		0E71F4F01CDDCF500088DD98 /* SidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E71F4EF1CDDCF500088DD98 /* SidebarController.m */; };
 		598D49222B8181294CC0D510 /* libPods-DBFM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 682DBC7C84E314C7AF4A56F0 /* libPods-DBFM.a */; };
+		627B1C351CDDD4D100314CEB /* ChannelsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 627B1C331CDDD4D100314CEB /* ChannelsTableViewCell.m */; };
+		627B1C361CDDD4D100314CEB /* ChannelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 627B1C341CDDD4D100314CEB /* ChannelsTableViewCell.xib */; };
 		62849ECB1CDCC7FB00DE71F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849ECA1CDCC7FB00DE71F0 /* main.m */; };
 		62849ECE1CDCC7FB00DE71F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849ECD1CDCC7FB00DE71F0 /* AppDelegate.m */; };
 		62849ED11CDCC7FB00DE71F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849ED01CDCC7FB00DE71F0 /* ViewController.m */; };
@@ -35,6 +37,9 @@
 		0E71F4EC1CDDCA790088DD98 /* SidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarController.m; sourceTree = "<group>"; };
 		0E71F4EE1CDDCF500088DD98 /* SidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarController.h; sourceTree = "<group>"; };
 		0E71F4EF1CDDCF500088DD98 /* SidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarController.m; sourceTree = "<group>"; };
+		627B1C321CDDD4D100314CEB /* ChannelsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewCell.h; sourceTree = "<group>"; };
+		627B1C331CDDD4D100314CEB /* ChannelsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewCell.m; sourceTree = "<group>"; };
+		627B1C341CDDD4D100314CEB /* ChannelsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChannelsTableViewCell.xib; sourceTree = "<group>"; };
 		62849EC61CDCC7FB00DE71F0 /* DBFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62849ECA1CDCC7FB00DE71F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		62849ECC1CDCC7FB00DE71F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -193,6 +198,9 @@
 		62849EE51CDCCAA900DE71F0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				627B1C321CDDD4D100314CEB /* ChannelsTableViewCell.h */,
+				627B1C331CDDD4D100314CEB /* ChannelsTableViewCell.m */,
+				627B1C341CDDD4D100314CEB /* ChannelsTableViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -267,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62849ED91CDCC7FB00DE71F0 /* LaunchScreen.storyboard in Resources */,
+				627B1C361CDDD4D100314CEB /* ChannelsTableViewCell.xib in Resources */,
 				62849ED61CDCC7FB00DE71F0 /* Assets.xcassets in Resources */,
 				62849ED41CDCC7FB00DE71F0 /* Main.storyboard in Resources */,
 			);
@@ -336,6 +345,7 @@
 				62849F031CDCCD6200DE71F0 /* DFMHotChannelsEntity.m in Sources */,
 				62849EEB1CDCCCD100DE71F0 /* ChannelInfo.m in Sources */,
 				62849EF71CDCCD2400DE71F0 /* SongInfo.m in Sources */,
+				627B1C351CDDD4D100314CEB /* ChannelsTableViewCell.m in Sources */,
 				62849EF11CDCCD0400DE71F0 /* PlayerController.m in Sources */,
 				62849EEE1CDCCCE600DE71F0 /* NetworkManager.m in Sources */,
 				62849F001CDCCD5400DE71F0 /* DFMUpChannelsEntity.m in Sources */,
