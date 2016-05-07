@@ -26,6 +26,7 @@
 		62849F001CDCCD5400DE71F0 /* DFMUpChannelsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849EFF1CDCCD5400DE71F0 /* DFMUpChannelsEntity.m */; };
 		62849F031CDCCD6200DE71F0 /* DFMHotChannelsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849F021CDCCD6200DE71F0 /* DFMHotChannelsEntity.m */; };
 		62849F061CDCCD7900DE71F0 /* DFMRecChannelsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849F051CDCCD7900DE71F0 /* DFMRecChannelsEntity.m */; };
+		6290893F1CDDC9D30042D851 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6290893E1CDDC9D30042D851 /* PlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,8 @@
 		62849F021CDCCD6200DE71F0 /* DFMHotChannelsEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFMHotChannelsEntity.m; sourceTree = "<group>"; };
 		62849F041CDCCD7900DE71F0 /* DFMRecChannelsEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFMRecChannelsEntity.h; sourceTree = "<group>"; };
 		62849F051CDCCD7900DE71F0 /* DFMRecChannelsEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFMRecChannelsEntity.m; sourceTree = "<group>"; };
+		6290893D1CDDC9D30042D851 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		6290893E1CDDC9D30042D851 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
 		682DBC7C84E314C7AF4A56F0 /* libPods-DBFM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DBFM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D3E62E1A2CAD706754FB1C5 /* Pods-DBFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DBFM/Pods-DBFM.debug.xcconfig"; sourceTree = "<group>"; };
 		FA7C1411AA00C768C4CA582D /* Pods-DBFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-DBFM/Pods-DBFM.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +150,8 @@
 		62849EE31CDCCA9400DE71F0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6290893D1CDDC9D30042D851 /* PlayerViewController.h */,
+				6290893E1CDDC9D30042D851 /* PlayerViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -329,6 +334,7 @@
 				62849EFA1CDCCD3400DE71F0 /* UserInfo.m in Sources */,
 				62849ECB1CDCC7FB00DE71F0 /* main.m in Sources */,
 				62849F061CDCCD7900DE71F0 /* DFMRecChannelsEntity.m in Sources */,
+				6290893F1CDDC9D30042D851 /* PlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
