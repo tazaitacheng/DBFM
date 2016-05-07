@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E71F4ED1CDDCA790088DD98 /* SidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E71F4EC1CDDCA790088DD98 /* SidebarController.m */; };
 		598D49222B8181294CC0D510 /* libPods-DBFM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 682DBC7C84E314C7AF4A56F0 /* libPods-DBFM.a */; };
 		62849ECB1CDCC7FB00DE71F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849ECA1CDCC7FB00DE71F0 /* main.m */; };
 		62849ECE1CDCC7FB00DE71F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62849ECD1CDCC7FB00DE71F0 /* AppDelegate.m */; };
@@ -29,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E71F4EB1CDDCA790088DD98 /* SidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarController.h; sourceTree = "<group>"; };
+		0E71F4EC1CDDCA790088DD98 /* SidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarController.m; sourceTree = "<group>"; };
 		62849EC61CDCC7FB00DE71F0 /* DBFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62849ECA1CDCC7FB00DE71F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		62849ECC1CDCC7FB00DE71F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -147,6 +150,8 @@
 		62849EE31CDCCA9400DE71F0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				0E71F4EB1CDDCA790088DD98 /* SidebarController.h */,
+				0E71F4EC1CDDCA790088DD98 /* SidebarController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -316,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62849ED11CDCC7FB00DE71F0 /* ViewController.m in Sources */,
+				0E71F4ED1CDDCA790088DD98 /* SidebarController.m in Sources */,
 				62849EE81CDCCAE900DE71F0 /* CDSideBarController.m in Sources */,
 				62849EF41CDCCD1400DE71F0 /* ProtocolClass.m in Sources */,
 				62849EFD1CDCCD4200DE71F0 /* DFMPlaylist.m in Sources */,
