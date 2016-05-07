@@ -1,8 +1,7 @@
-
 target 'DBFM' do
 
 pod "AFNetworking",'~>2.0'
-pod 'MJRefresh'
+pod 'MJRefresh', '~> 1.4.5'
 pod 'MJExtension'
 pod 'SDWebImage'
 pod 'Masonry'
