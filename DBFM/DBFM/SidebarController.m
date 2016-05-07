@@ -7,7 +7,7 @@
 //
 
 #import "SidebarController.h"
-
+#import "PlayerController.h"
 @interface SidebarController ()
 
 @end
