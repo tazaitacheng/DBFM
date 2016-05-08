@@ -12,8 +12,8 @@
 #import "AppDelegate.h"
 #import "ChannelsTableViewCell.h"
 
-//#import "UserInfoViewController.h"
-//#import "LoginViewController.h"
+#import "UserInfoViewController.h"
+#import "LoginViewController.h"
 
 @interface SidebarController : UITabBarController<CDSideBarControllerDelegate>
 

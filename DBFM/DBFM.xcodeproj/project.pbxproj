@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		0E71F4ED1CDDCA790088DD98 /* SidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E71F4EC1CDDCA790088DD98 /* SidebarController.m */; };
 		0E71F4F01CDDCF500088DD98 /* SidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E71F4EF1CDDCF500088DD98 /* SidebarController.m */; };
-		4A5EE0ED1CDDDED600C8C7AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5EE0EC1CDDDED600C8C7AF /* Main.storyboard */; };
 		598D49222B8181294CC0D510 /* libPods-DBFM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 682DBC7C84E314C7AF4A56F0 /* libPods-DBFM.a */; };
+		62564D931CDECE5900D8ABD5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62564D921CDECE5900D8ABD5 /* LoginViewController.m */; };
+		62564D961CDECE7A00D8ABD5 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62564D951CDECE7A00D8ABD5 /* UserInfoViewController.m */; };
 		627B1C351CDDD4D100314CEB /* ChannelsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 627B1C331CDDD4D100314CEB /* ChannelsTableViewCell.m */; };
 		627B1C361CDDD4D100314CEB /* ChannelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 627B1C341CDDD4D100314CEB /* ChannelsTableViewCell.xib */; };
 		627B1C3A1CDDD69E00314CEB /* ChannelsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627B1C381CDDD69E00314CEB /* ChannelsTableViewController.m */; };
@@ -40,6 +41,10 @@
 		0E71F4EE1CDDCF500088DD98 /* SidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarController.h; sourceTree = "<group>"; };
 		0E71F4EF1CDDCF500088DD98 /* SidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarController.m; sourceTree = "<group>"; };
 		4A5EE0EC1CDDDED600C8C7AF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		62564D911CDECE5900D8ABD5 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		62564D921CDECE5900D8ABD5 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		62564D941CDECE7A00D8ABD5 /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		62564D951CDECE7A00D8ABD5 /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
 		627B1C321CDDD4D100314CEB /* ChannelsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewCell.h; sourceTree = "<group>"; };
 		627B1C331CDDD4D100314CEB /* ChannelsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewCell.m; sourceTree = "<group>"; };
 		627B1C341CDDD4D100314CEB /* ChannelsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChannelsTableViewCell.xib; sourceTree = "<group>"; };
@@ -172,6 +177,10 @@
 				627B1C371CDDD69E00314CEB /* ChannelsTableViewController.h */,
 				627B1C381CDDD69E00314CEB /* ChannelsTableViewController.m */,
 				627B1C391CDDD69E00314CEB /* ChannelsTableViewController.xib */,
+				62564D911CDECE5900D8ABD5 /* LoginViewController.h */,
+				62564D921CDECE5900D8ABD5 /* LoginViewController.m */,
+				62564D941CDECE7A00D8ABD5 /* UserInfoViewController.h */,
+				62564D951CDECE7A00D8ABD5 /* UserInfoViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -286,7 +295,6 @@
 				627B1C361CDDD4D100314CEB /* ChannelsTableViewCell.xib in Resources */,
 				62849ED61CDCC7FB00DE71F0 /* Assets.xcassets in Resources */,
 				627B1C3B1CDDD69E00314CEB /* ChannelsTableViewController.xib in Resources */,
-				62849ED41CDCC7FB00DE71F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +357,8 @@
 				0E71F4ED1CDDCA790088DD98 /* SidebarController.m in Sources */,
 				62849EE81CDCCAE900DE71F0 /* CDSideBarController.m in Sources */,
 				62849EF41CDCCD1400DE71F0 /* ProtocolClass.m in Sources */,
+				62564D931CDECE5900D8ABD5 /* LoginViewController.m in Sources */,
+				62564D961CDECE7A00D8ABD5 /* UserInfoViewController.m in Sources */,
 				62849EFD1CDCCD4200DE71F0 /* DFMPlaylist.m in Sources */,
 				62849ECE1CDCC7FB00DE71F0 /* AppDelegate.m in Sources */,
 				62849F031CDCCD6200DE71F0 /* DFMHotChannelsEntity.m in Sources */,

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zaz-z8-aAs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zaz-z8-aAs">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -30,10 +30,10 @@
             </objects>
             <point key="canvasLocation" x="-438" y="403"/>
         </scene>
-        <!--View Controller-->
+        <!--User Info View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="userInfoVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="UserInfoViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -85,6 +85,25 @@
                                 <color key="textColor" red="0.91380470991134644" green="0.86732941865921021" blue="0.30645173788070679" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbk-y0-Kef">
+                                <rect key="frame" x="231" y="447" width="125" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="152" y="443" width="125" height="21"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wx2-MK-OVZ">
+                                <rect key="frame" x="259" y="504" width="30" height="30"/>
+                                <state key="normal" title="登出"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="199" y="491" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="logoutButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xpb-Mn-sAS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -104,15 +123,23 @@
                             <constraint firstItem="gsx-eq-D8i" firstAttribute="bottom" secondItem="cL5-BH-bbX" secondAttribute="bottom" id="z7f-ps-FEJ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bannedLabel" destination="hf4-Ii-ptL" id="l48-P9-IFh"/>
+                        <outlet property="likedLabel" destination="gsx-eq-D8i" id="hl4-SL-U9B"/>
+                        <outlet property="loginImage" destination="nhd-s2-Rgx" id="B3S-ZW-NLg"/>
+                        <outlet property="logoutButton" destination="Wx2-MK-OVZ" id="vxz-rY-cbD"/>
+                        <outlet property="playedLabel" destination="cL5-BH-bbX" id="xGa-HA-23z"/>
+                        <outlet property="usernameLabel" destination="bbk-y0-Kef" id="VSj-nb-IIU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="279" y="371"/>
+            <point key="canvasLocation" x="444" y="360"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="Sso-fc-LbH">
             <objects>
-                <viewController id="Bft-tE-7yP" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loginVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Bft-tE-7yP" customClass="LoginViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uPg-mm-zeG"/>
                         <viewControllerLayoutGuide type="bottom" id="xae-rx-LWa"/>
@@ -165,6 +192,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="登录"/>
+                                <connections>
+                                    <action selector="submitButtonTapped:" destination="Bft-tE-7yP" eventType="touchUpInside" id="Xxd-fN-qgK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v6v-F6-dtl">
                                 <rect key="frame" x="229" y="502" width="46" height="30"/>
@@ -174,6 +204,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="取消"/>
+                                <connections>
+                                    <action selector="cancelButtonTapped:" destination="Bft-tE-7yP" eventType="touchUpInside" id="Cl0-gV-1GI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -201,6 +234,12 @@
                             <constraint firstItem="xem-Uw-V2G" firstAttribute="leading" secondItem="UaQ-RM-Jd4" secondAttribute="leadingMargin" id="z6d-dZ-mUP"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="captcha" destination="xem-Uw-V2G" id="ic1-Of-H4k"/>
+                        <outlet property="captchaImageview" destination="X0r-WV-BS0" id="qBe-U8-kVn"/>
+                        <outlet property="password" destination="1Ge-FQ-AwT" id="bJ5-3L-aiE"/>
+                        <outlet property="username" destination="3sp-XF-atg" id="cLL-L8-u6P"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4we-oA-XgU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

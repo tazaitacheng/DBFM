@@ -10,19 +10,18 @@
 #import "PlayerViewController.h"
 #import "ChannelsTableViewController.h"
 
-@interface SidebarController ()
-
-{
-    CDSideBarController* sideBar;
-    PlayerViewController* playerVC;
-    ChannelsTableViewController* channelsVC;
-//    UserInfoViewController* userInfoVC;
-    AppDelegate* appDelegate;
+@interface SidebarController (){
+    CDSideBarController *sideBar;
+    PlayerViewController *playerVC;
+    ChannelsTableViewController *channelsVC;
+    UserInfoViewController *userInfoVC;
+    AppDelegate *appDelegate;
 }
 
 @end
 
 @implementation SidebarController
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     appDelegate = [[UIApplication sharedApplication]delegate];
